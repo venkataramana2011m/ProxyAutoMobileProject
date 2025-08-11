@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/proxyautomobileproject" mode="merge"/>
+    <filter root="/content/proxyautomobileproject" mode="merge"/>
+    <filter root="/content/dam/proxyautomobileproject" mode="merge">
+        <exclude pattern="/content/dam/proxyautomobileproject(/.*)?"/>
+        <include pattern="/content/dam/proxyautomobileproject/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/proxyautomobileproject/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/proxyautomobileproject" mode="merge"/>
+</workspaceFilter>
